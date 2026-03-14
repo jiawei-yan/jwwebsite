@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jiawei Yan works on ultra-high-power hard X-ray attosecond pulses, spatiotemporal shaping of X-ray pulses, fully coherent high-repetition-rate FELs, and AI for Science."
+    />
+    <title>Jiawei Yan | Attosecond XFEL and Beyond</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#home">
+          <span class="brand-mark">JY</span>
+          <span class="brand-copy">
+            <strong>Jiawei Yan</strong>
+            <span data-i18n="brand.tagline">Attosecond XFEL and Beyond</span>
+          </span>
+        </a>
+
+        <div class="header-actions">
+          <div class="lang-switch" role="group" aria-label="Language switcher" data-i18n-aria-label="lang.switcher">
+            <button type="button" class="lang-button" data-lang-button="en" aria-pressed="true">
+              EN
+            </button>
+            <button type="button" class="lang-button" data-lang-button="zh" aria-pressed="false">
+              中文
+            </button>
+          </div>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+            data-nav-toggle
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="visually-hidden" data-i18n="nav.toggle">Toggle navigation</span>
+          </button>
+        </div>
+
+        <nav class="site-nav" id="site-nav" data-nav>
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#research" data-i18n="nav.research">Research</a>
+          <a href="#papers" data-i18n="nav.papers">Papers</a>
+          <a href="#highlights" data-i18n="nav.highlights">Highlights</a>
+          <a href="#awards" data-i18n="nav.awards">Recognition</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="home">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-reveal data-i18n="hero.eyebrow">Attosecond XFEL and Beyond</p>
+            <h1 data-reveal>Jiawei Yan</h1>
+            <p class="hero-role" data-reveal data-i18n="hero.role">
+              Ultra-high-power hard X-ray attosecond pulse generation and applications
+            </p>
+            <p class="hero-summary" data-reveal data-i18n="hero.summary">
+              My current main focus is the generation and application of ultra-high-power hard X-ray attosecond pulses. More broadly, I work on advanced X-ray free-electron laser science, especially when source physics can be pushed toward stronger temporal compression, higher peak power, richer pulse structure, and more useful experimental capability.
+            </p>
+            <p class="hero-summary hero-summary-secondary" data-reveal data-i18n="hero.summary2">
+              My research spans attosecond XFELs, spatiotemporal shaping of X-ray pulses, fully coherent high-repetition-rate FELs, and AI for Science. At the center is a broader question: how can we move toward complete control over X-ray pulses?
+            </p>
+
+            <div class="hero-pills" data-reveal>
+              <span data-i18n="hero.pill1">Attosecond XFEL</span>
+              <span data-i18n="hero.pill2">X-ray pulse shaping</span>
+              <span data-i18n="hero.pill3">Fully coherent high-repetition-rate FEL</span>
+              <span data-i18n="hero.pill4">AI for Science</span>
+            </div>
+          </div>
+
+          <aside class="hero-visual panel" data-reveal>
+            <div class="visual-header">
+              <span class="panel-kicker" data-i18n="hero.visualKicker">Research Map</span>
+              <span class="visual-tag" data-i18n="hero.visualTag">four themes</span>
+            </div>
+
+            <svg
+              class="hero-diagram"
+              viewBox="0 0 720 500"
+              aria-labelledby="diagram-title diagram-desc"
+              role="img"
+            >
+              <title id="diagram-title" data-i18n="hero.diagramTitle">Research directions in XFEL science</title>
+              <desc id="diagram-desc" data-i18n="hero.diagramDesc">
+                A central pulse core connected to four themes: attosecond XFEL, X-ray pulse shaping, self-modulation seeded FELs, and AI for Science.
+              </desc>
+
+              <defs>
+                <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#d6a46b" stop-opacity="1" />
+                  <stop offset="60%" stop-color="#b87746" stop-opacity="0.65" />
+                  <stop offset="100%" stop-color="#b87746" stop-opacity="0" />
+                </radialGradient>
+                <linearGradient id="beamStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#6fa6b8" />
+                  <stop offset="100%" stop-color="#d6a46b" />
+                </linearGradient>
+                <filter id="outerGlow">
+                  <feGaussianBlur stdDeviation="10" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+
+              <rect x="28" y="28" width="664" height="444" rx="32" class="diagram-frame" />
+              <circle cx="360" cy="250" r="142" class="diagram-ring ring-one" />
+              <circle cx="360" cy="250" r="92" class="diagram-ring ring-two" />
+              <circle cx="360" cy="250" r="58" class="diagram-core-glow" />
+              <circle cx="360" cy="250" r="20" class="diagram-core" filter="url(#outerGlow)" />
+
+              <path d="M360 250 L190 140" class="diagram-link" />
+              <path d="M360 250 L532 150" class="diagram-link" />
+              <path d="M360 250 L512 360" class="diagram-link" />
+              <path d="M360 250 L196 352" class="diagram-link" />
+
+              <g class="diagram-node node-a">
+                <circle cx="190" cy="140" r="52" />
+                <text x="190" y="132" text-anchor="middle" data-i18n="hero.node1a">Attosecond</text>
+                <text x="190" y="154" text-anchor="middle" data-i18n="hero.node1b">XFEL</text>
+              </g>
+
+              <g class="diagram-node node-b">
+                <circle cx="532" cy="150" r="58" />
+                <text x="532" y="142" text-anchor="middle" data-i18n="hero.node2a">X-ray pulse</text>
+                <text x="532" y="164" text-anchor="middle" data-i18n="hero.node2b">shaping</text>
+              </g>
+
+              <g class="diagram-node node-c">
+                <circle cx="512" cy="360" r="66" />
+                <text x="512" y="350" text-anchor="middle" data-i18n="hero.node3a">Self-modulation</text>
+                <text x="512" y="372" text-anchor="middle" data-i18n="hero.node3b">seeded FELs</text>
+              </g>
+
+              <g class="diagram-node node-d">
+                <circle cx="196" cy="352" r="58" />
+                <text x="196" y="344" text-anchor="middle" data-i18n="hero.node4a">AI for</text>
+                <text x="196" y="366" text-anchor="middle" data-i18n="hero.node4b">Science</text>
+              </g>
+
+              <path
+                d="M246 250 C290 214, 328 206, 360 250 C394 294, 432 286, 480 250"
+                class="diagram-wave"
+              />
+              <path
+                d="M256 272 C300 236, 334 230, 360 272 C392 314, 424 310, 468 274"
+                class="diagram-wave wave-secondary"
+              />
+
+              <text x="360" y="78" text-anchor="middle" class="diagram-caption" data-i18n="hero.caption">
+                ultra-high-power hard X-ray attosecond pulses
+              </text>
+            </svg>
+
+            <div class="visual-footer">
+              <div>
+                <span class="visual-value" data-i18n="hero.visual1Title">Main focus</span>
+                <span class="visual-label" data-i18n="hero.visual1Label">generation and applications of hard X-ray attosecond pulses</span>
+              </div>
+              <div>
+                <span class="visual-value" data-i18n="hero.visual2Title">Extended program</span>
+                <span class="visual-label" data-i18n="hero.visual2Label">pulse shaping, coherent FELs, and AI-enabled control</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="about">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+            <h2 data-i18n="about.title">Centered on hard X-ray attosecond pulse generation, then extended outward</h2>
+            <p class="section-intro" data-i18n="about.intro">
+              The center of gravity of my current work is ultra-high-power hard X-ray attosecond pulse generation and its application to new ultrafast X-ray science.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <article class="panel prose" data-reveal>
+              <p data-i18n="about.p1">
+                I am based in Hamburg and work on advanced XFEL science across theory, numerical design, and experimental implementation. My current priority is to push hard X-ray attosecond pulse generation toward higher peak power, stronger controllability, and broader experimental impact, especially where pulse properties can be deliberately matched to demanding ultrafast measurements.
+              </p>
+              <p data-i18n="about.p2">
+                Around this main line, I work on several connected problems: shaping X-ray pulses in both time and space, developing routes toward fully coherent high-repetition-rate FEL operation, and using AI and optimization methods to make accelerator and light-source physics more efficient and more programmable.
+              </p>
+              <p data-i18n="about.p3">
+                I do not see these as separate topics. They are parts of one broader objective: complete control over X-ray pulses, from pulse duration and wavefront structure to coherence, stability, diagnostics, and machine intelligence.
+              </p>
+            </article>
+
+            <article class="panel profile-panel" data-reveal>
+              <div class="monogram">JY</div>
+              <h3 data-i18n="about.focusTitle">Current emphasis</h3>
+              <ul class="focus-list">
+                <li data-i18n="about.focus1">Ultra-high-power hard X-ray attosecond pulse generation and applications</li>
+                <li data-i18n="about.focus2">Spatiotemporal shaping of structured X-ray pulses</li>
+                <li data-i18n="about.focus3">Fully coherent high-repetition-rate FEL concepts and seeded FEL physics</li>
+                <li data-i18n="about.focus4">Bayesian and AI-assisted optimization for accelerator-based light sources</li>
+              </ul>
+
+              <div class="contact-strip">
+                <a
+                  href="https://www.linkedin.com/in/jiawei-yan-67090a227/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://www.researchgate.net/profile/Jiawei-Yan-11"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ResearchGate
+                </a>
+                <a
+                  href="https://twitter.com/jiaweiyan10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="research.eyebrow">Research</p>
+            <h2 data-i18n="research.title">Four research themes</h2>
+            <p class="section-intro" data-i18n="research.intro">
+              Attosecond XFELs, X-ray pulse shaping, coherent high-repetition-rate FELs, and AI for Science.
+            </p>
+          </div>
+
+          <div class="research-grid">
+            <article class="research-card" data-reveal>
+              <span class="topic-index">01</span>
+              <h3 data-i18n="research.card1.title">Attosecond XFEL</h3>
+              <p data-i18n="research.card1.p1">
+                Hard X-ray attosecond pulses are a uniquely powerful route to resolving electronic motion and nonequilibrium dynamics on their natural timescales. The challenge is not merely to reach the attosecond regime, but to do so with sufficiently high peak power and with pulse properties that are actually useful for experiments.
+              </p>
+              <p data-i18n="research.card1.p2">
+                This is my primary focus. I work on the generation and application of ultra-high-power hard X-ray attosecond pulses, with emphasis on beam shaping, pulse compression, source optimization, diagnostics, and the transition from proof-of-principle generation to robust scientific use.
+              </p>
+            </article>
+
+            <article class="research-card" data-reveal>
+              <span class="topic-index">02</span>
+              <h3 data-i18n="research.card2.title">Spatiotemporal shaping of X-ray pulses</h3>
+              <p data-i18n="research.card2.p1">
+                Once pulse duration becomes controllable, the next question is whether one can also shape waveform, phase, and transverse mode content at the source. This matters because many future X-ray experiments will need not just shorter pulses, but pulses with designed spatiotemporal structure.
+              </p>
+              <p data-i18n="research.card2.p2">
+                I study methods for directly shaping X-ray pulses in time and space, including orbital-angular-momentum control and other routes to wavefront-engineered or waveform-engineered X-ray emission.
+              </p>
+            </article>
+
+            <article class="research-card" data-reveal>
+              <span class="topic-index">03</span>
+              <h3 data-i18n="research.card3.title">Fully coherent high-repetition-rate FEL</h3>
+              <p data-i18n="research.card3.p1">
+                Fully coherent FEL operation at high repetition rate is a major goal for next-generation light sources, but standard seeded FEL schemes run into practical limits, especially in seed-laser power and scalability. More generally, the question is how to retain seeded-FEL coherence while removing those bottlenecks.
+              </p>
+              <p data-i18n="research.card3.p2">
+                In my work, the most concrete example is the self-modulation seeded FEL mechanism, which I proposed and experimentally validated. More broadly, I am interested in how self-modulation HGHG and related mechanisms can support compact, high-average-power EUV FELs as well as more general coherent high-repetition-rate FEL development.
+              </p>
+            </article>
+
+            <article class="research-card" data-reveal>
+              <span class="topic-index">04</span>
+              <h3 data-i18n="research.card4.title">AI for Science</h3>
+              <p data-i18n="research.card4.p1">
+                Accelerator and FEL systems are already too high-dimensional and too nonlinear to rely only on manual tuning or brute-force scans. If we want light sources to become more adaptive and more precisely controlled, intelligent optimization must become part of the physics workflow.
+              </p>
+              <p data-i18n="research.card4.p2">
+                I use Bayesian optimization, machine learning, and physics-informed algorithms for machine studies, FEL design, and operational optimization, especially where these methods can improve both physical insight and practical controllability.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section papers-section" id="papers">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="papers.eyebrow">Papers</p>
+            <h2 data-i18n="papers.title">Selected papers</h2>
+            <p class="section-intro" data-i18n="papers.intro">
+              Recent work.
+            </p>
+          </div>
+
+          <div class="papers-grid">
+            <article class="panel papers-panel" data-reveal>
+              <ol class="paper-list">
+                <li>
+                  <p class="paper-title">
+                    <a href="https://www.nature.com/articles/s41566-024-01566-0" target="_blank" rel="noopener noreferrer">
+                      Terawatt-attosecond hard X-ray free-electron laser at high repetition rate
+                    </a>
+                  </p>
+                  <p class="paper-meta">J. Yan et al. <em>Nature Photonics</em> 18, 1293–1298 (2024)</p>
+                </li>
+                <li>
+                  <p class="paper-title">
+                    <a href="https://spj.science.org/doi/10.34133/ultrafastscience.0143" target="_blank" rel="noopener noreferrer">
+                      AttoSHINE: Generation of continuous-wave terawatt-scale attosecond X-ray pulses at SHINE
+                    </a>
+                  </p>
+                  <p class="paper-meta">B. Yan, C. Xu, S. Chen, D. Gu, Y. Chen, J. Yan, H. Deng. <em>Ultrafast Science</em> (2026)</p>
+                </li>
+                <li>
+                  <p class="paper-title">
+                    <a href="https://arxiv.org/html/2508.19020v2" target="_blank" rel="noopener noreferrer">
+                      Spatiotemporal shaping of attosecond X-rays with time-dependent orbital angular momentum
+                    </a>
+                  </p>
+                  <p class="paper-meta">C. Xu, J. Yan, G. Geloni, C. Lechner, H. Deng. arXiv:2508.19020v2</p>
+                </li>
+                <li>
+                  <p class="paper-title">
+                    <a href="https://doi.org/10.1117/1.APN.2.3.036001" target="_blank" rel="noopener noreferrer">
+                      Self-seeded free-electron lasers with orbital angular momentum
+                    </a>
+                  </p>
+                  <p class="paper-meta">J. Yan and G. Geloni. <em>Advanced Photonics Nexus</em> 2(3), 036001 (2023)</p>
+                </li>
+                <li>
+                  <p class="paper-title">
+                    <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.084801" target="_blank" rel="noopener noreferrer">
+                      Self-Amplification of Coherent Energy Modulation in Seeded Free-Electron Lasers
+                    </a>
+                  </p>
+                  <p class="paper-meta">J. Yan et al. <em>Physical Review Letters</em> 126, 084801 (2021)</p>
+                </li>
+              </ol>
+            </article>
+
+            <article class="panel papers-panel" data-reveal>
+              <ol class="paper-list" start="6">
+                <li>
+                  <p class="paper-title">
+                    <a href="https://www.spiedigitallibrary.org/journals/advanced-photonics/volume-3/issue-04/045003/First-observation-of-laser-beam-interaction-in-a-dipole-magnet/10.1117/1.AP.3.4.045003.full" target="_blank" rel="noopener noreferrer">
+                      First observation of laser-beam interaction in a dipole magnet
+                    </a>
+                  </p>
+                  <p class="paper-meta">J. Yan et al. <em>Advanced Photonics</em> 3(4), 045003 (2021)</p>
+                </li>
+                <li>
+                  <p class="paper-title">
+                    <a href="https://www.sciencedirect.com/science/article/pii/S2667325824002048" target="_blank" rel="noopener noreferrer">
+                      Self-enhanced coherent harmonic amplification in seeded free-electron lasers
+                    </a>
+                  </p>
+                  <p class="paper-meta">H. Yang, J. Yan, H. Deng. <em>Fundamental Research</em> (2024)</p>
+                </li>
+                <li>
+                  <p class="paper-title">
+                    <a href="https://doi.org/10.1117/1.APN.2.3.036004" target="_blank" rel="noopener noreferrer">
+                      High-repetition-rate seeded free-electron laser enhanced by self-modulation
+                    </a>
+                  </p>
+                  <p class="paper-meta">H. Yang, J. Yan, H. Deng. <em>Advanced Photonics Nexus</em> 2(3), 036004 (2023)</p>
+                </li>
+                <li>
+                  <p class="paper-title">
+                    <a href="https://www.nature.com/articles/s41566-023-01305-x" target="_blank" rel="noopener noreferrer">
+                      Cascaded hard X-ray self-seeded free-electron laser at megahertz repetition rate
+                    </a>
+                  </p>
+                  <p class="paper-meta">S. Liu et al. <em>Nature Photonics</em> 17, 984–991 (2023)</p>
+                </li>
+                <li>
+                  <p class="paper-title">
+                    <a href="https://www.mdpi.com/2304-6732/12/3/275" target="_blank" rel="noopener noreferrer">
+                      Multi-Beam-Energy Control Unit Based on Triple-Bend Achromats
+                    </a>
+                  </p>
+                  <p class="paper-meta">L. Wu et al. <em>Photonics</em> 12(3), 275 (2025)</p>
+                </li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="highlights">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="highlights.eyebrow">Highlights</p>
+            <h2 data-i18n="highlights.title">Current directions and future plans</h2>
+            <p class="section-intro" data-i18n="highlights.intro">
+              Attosecond pulse generation, coherent FEL concepts, diagnostics, and applications.
+            </p>
+          </div>
+
+          <div class="highlights-grid">
+            <article class="panel highlight-panel highlight-panel-large" data-reveal>
+              <h3 data-i18n="highlights.panel1Title">Toward complete control over X-ray pulses</h3>
+              <p data-i18n="highlights.panel1P1">
+                The central aim is not only to make XFEL pulses shorter or more intense, but to make them deliberately shapeable. That means engineering the electron beam, the seeding process, and the FEL interaction so that the final X-ray pulse carries useful structure in duration, phase, topology, and coherence.
+              </p>
+              <p data-i18n="highlights.panel1P2">
+                In this view, attosecond XFELs, structured X-ray pulses, coherent FEL control, and machine intelligence are not isolated projects. They all serve the same long-term goal: achieving as complete control over X-ray pulses as possible.
+              </p>
+            </article>
+
+            <article class="panel highlight-panel" data-reveal>
+              <h3 data-i18n="highlights.panel2Title">Shared scientific thread</h3>
+              <ul class="compact-list">
+                <li data-i18n="highlights.item1">Electron-beam phase-space control</li>
+                <li data-i18n="highlights.item2">Direct shaping of ultrafast X-ray waveforms</li>
+                <li data-i18n="highlights.item3">Coherence and scalability at high repetition rate</li>
+                <li data-i18n="highlights.item4">Data-driven operation of complex accelerator systems</li>
+              </ul>
+            </article>
+
+            <article class="panel highlight-panel" data-reveal>
+              <h3 data-i18n="highlights.panel3Title">Future directions</h3>
+              <p data-i18n="highlights.panel3P1">
+                Looking ahead, I want to develop compact attosecond XFEL concepts, diagnostics tailored to attosecond XFEL pulses, and new applications that fully exploit the unique combination of hard X-ray photon energy, attosecond duration, and high peak power.
+              </p>
+              <p data-i18n="highlights.panel3P2">
+                On the coherent FEL side, I am also interested in whether self-modulation HGHG and related mechanisms can support compact, high-average-power EUV FEL development.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="awards">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="awards.eyebrow">Recognition</p>
+            <h2 data-i18n="awards.title">Selected honors</h2>
+          </div>
+
+          <div class="award-grid">
+            <article class="award-card" data-reveal>
+              <span class="award-year">2025</span>
+              <h3 data-i18n="awards.a1">First Prize, Chinese Nuclear Society Natural Science Award</h3>
+            </article>
+            <article class="award-card" data-reveal>
+              <span class="award-year">2024</span>
+              <h3 data-i18n="awards.a2">European XFEL Young Scientist Award</h3>
+            </article>
+            <article class="award-card" data-reveal>
+              <span class="award-year">2022</span>
+              <h3 data-i18n="awards.a3">Young Investigator FEL Prize</h3>
+            </article>
+            <article class="award-card" data-reveal>
+              <span class="award-year">2022</span>
+              <h3 data-i18n="awards.a4">CAS Excellent Doctoral Dissertation Award</h3>
+            </article>
+            <article class="award-card" data-reveal>
+              <span class="award-year">2022</span>
+              <h3 data-i18n="awards.a5">China's Top 10 Optical Breakthroughs</h3>
+            </article>
+            <article class="award-card" data-reveal>
+              <span class="award-year">2021</span>
+              <h3 data-i18n="awards.a6">CAS President's Special Award</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+            <h2 data-i18n="contact.title">Contact and profiles</h2>
+            <p class="section-intro" data-i18n="contact.intro">
+              Academic correspondence and collaborations.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <article class="panel contact-panel" data-reveal>
+              <h3 data-i18n="contact.card1Title">Email</h3>
+              <p data-i18n="contact.card1Text">
+                Academic correspondence.
+              </p>
+              <button class="email-button" type="button" data-email-trigger data-i18n="contact.emailButton">
+                Open email
+              </button>
+            </article>
+            <article class="panel contact-panel" data-reveal>
+              <h3 data-i18n="contact.card2Title">Location</h3>
+              <p data-i18n="contact.card2Text">Hamburg, Germany</p>
+            </article>
+            <article class="panel contact-panel" data-reveal>
+              <h3 data-i18n="contact.card3Title">Profiles</h3>
+              <p data-i18n="contact.card3Text">
+                LinkedIn, ResearchGate, and Twitter.
+              </p>
+              <p class="contact-links">
+                <a
+                  href="https://www.linkedin.com/in/jiawei-yan-67090a227/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://www.researchgate.net/profile/Jiawei-Yan-11"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ResearchGate
+                </a>
+                <a
+                  href="https://twitter.com/jiaweiyan10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter
+                </a>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span data-year></span> Jiawei Yan</p>
+        <p data-i18n="footer.tagline">Attosecond XFEL and Beyond</p>
+      </div>
+    </footer>
+  </body>
+</html>
