@@ -30,6 +30,7 @@ jobs:
         run: |
           mkdir dist
           cp index.html styles.css main.js dist/
+          cp -R images dist/
           if [ -f CNAME ]; then cp CNAME dist/; fi
           touch dist/.nojekyll
 

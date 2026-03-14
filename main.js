@@ -68,7 +68,7 @@ const translations = {
     "about.intro":
       "The center of gravity of my current work is ultra-high-power hard X-ray attosecond pulse generation and its application to new ultrafast X-ray science.",
     "about.p1":
-      "I am based in Hamburg and work on advanced XFEL science across theory, numerical design, and experimental implementation. My current priority is to push hard X-ray attosecond pulse generation toward higher peak power, stronger controllability, and broader experimental impact, especially where pulse properties can be deliberately matched to demanding ultrafast measurements.",
+      "I am based in Hamburg and work on advanced XFEL science across theory, numerical design, and experimental implementation. My current research program focuses on advancing hard X-ray attosecond pulse generation toward higher peak power, stronger controllability, and broader experimental impact, especially where pulse properties can be deliberately matched to demanding ultrafast measurements.",
     "about.p2":
       "Around this main line, I work on several connected problems: shaping X-ray pulses in both time and space, developing routes toward fully coherent high-repetition-rate FEL operation, and using AI and optimization methods to make accelerator and light-source physics more efficient and more programmable.",
     "about.p3":
@@ -109,6 +109,26 @@ const translations = {
     "papers.title": "Selected papers",
     "papers.intro":
       "Recent work.",
+    "visuals.eyebrow": "Visuals",
+    "visuals.title": "Research visuals",
+    "visuals.intro":
+      "Selected cover and concept visuals related to recent work.",
+    "visuals.card1.source": "Nature Photonics 2024",
+    "visuals.card1.title": "Attosecond XFEL",
+    "visuals.card1.text":
+      "Concept visual for ultra-high-power hard X-ray attosecond pulse generation.",
+    "visuals.card2.source": "APN 2023",
+    "visuals.card2.title": "Self-seeded OAM",
+    "visuals.card2.text":
+      "Structured X-ray pulses with orbital angular momentum.",
+    "visuals.card3.source": "PRL 2021 / APN 2023",
+    "visuals.card3.title": "Self-modulation HGHG",
+    "visuals.card3.text":
+      "Visual work related to self-modulation seeded FEL and coherent harmonic control.",
+    "visuals.card4.source": "Advanced Photonics 2021",
+    "visuals.card4.title": "Laser-beam interaction",
+    "visuals.card4.text":
+      "Concept visual for laser-beam interaction in a dipole magnet.",
     "highlights.eyebrow": "Outlook",
     "highlights.title": "Current directions and future plans",
     "highlights.intro":
@@ -199,7 +219,7 @@ const translations = {
     "about.intro":
       "我当前研究的重心，是把超高功率硬X射线阿秒脉冲推进到新的产生机制、诊断能力和应用场景。",
     "about.p1":
-      "我目前在汉堡从事先进XFEL科学研究，工作内容横跨理论、数值设计和实验实现。现阶段最重要的任务，是把硬X射线阿秒脉冲推进到更高峰值功率、更强可控性以及更明确的实验影响力，尤其是那些能够与高要求超快测量真正匹配的脉冲性质。",
+      "我目前在汉堡从事先进XFEL科学研究，工作内容横跨理论、数值设计和实验实现。现阶段的主要研究重点，是推动硬X射线阿秒脉冲向更高峰值功率、更强可控性以及更明确的实验影响力发展，尤其关注那些能够与高要求超快测量真正匹配的脉冲性质。",
     "about.p2":
       "围绕这一主线，我也研究若干紧密相关的问题：如何在时间和空间两个维度上整形X射线脉冲，如何推动全相干高重复频率FEL方案的发展，以及如何把AI和优化方法更深入地带入加速器与光源物理。",
     "about.p3":
@@ -237,6 +257,26 @@ const translations = {
     "papers.title": "近期论文",
     "papers.intro":
       "近期工作。",
+    "visuals.eyebrow": "图像",
+    "visuals.title": "研究图像",
+    "visuals.intro":
+      "与近期工作相关的部分封面与概念图像。",
+    "visuals.card1.source": "Nature Photonics 2024",
+    "visuals.card1.title": "阿秒 XFEL",
+    "visuals.card1.text":
+      "对应超高功率硬X射线阿秒脉冲产生的概念图像。",
+    "visuals.card2.source": "APN 2023",
+    "visuals.card2.title": "Self-seeded OAM",
+    "visuals.card2.text":
+      "对应携带轨道角动量的结构化X射线脉冲图像。",
+    "visuals.card3.source": "PRL 2021 / APN 2023",
+    "visuals.card3.title": "Self-modulation HGHG",
+    "visuals.card3.text":
+      "围绕 self-modulation seeded FEL 与相干谐波控制的图像表达。",
+    "visuals.card4.source": "Advanced Photonics 2021",
+    "visuals.card4.title": "Laser-beam interaction",
+    "visuals.card4.text":
+      "对应 dipole magnet 中 laser-beam interaction 的概念图像。",
     "highlights.eyebrow": "展望",
     "highlights.title": "当前方向与未来计划",
     "highlights.intro":
