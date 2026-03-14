@@ -22,6 +22,7 @@ const translations = {
       "Jiawei Yan works on ultra-high-power hard X-ray attosecond pulses, spatiotemporal shaping of X-ray pulses, fully coherent high-repetition-rate FELs, and AI for Science.",
     "skip": "Skip to content",
     "lang.switcher": "Language switcher",
+    "person.name": "Jiawei Yan",
     "brand.tagline": "Attosecond XFEL and Beyond",
     "nav.toggle": "Toggle navigation",
     "nav.about": "About",
@@ -151,11 +152,12 @@ const translations = {
     "footer.tagline": "Attosecond XFEL and Beyond",
   },
   zh: {
-    "meta.title": "Jiawei Yan | 阿秒 XFEL 及其未来",
+    "meta.title": "颜佳伟 | 阿秒 XFEL 及其未来",
     "meta.description":
-      "Jiawei Yan 的研究聚焦于超高功率硬X射线阿秒脉冲、X射线脉冲时空整形、全相干高重复频率FEL，以及 AI for Science。",
+      "颜佳伟的研究聚焦于超高功率硬X射线阿秒脉冲、X射线脉冲时空整形、全相干高重复频率FEL，以及 AI for Science。",
     "skip": "跳到正文",
     "lang.switcher": "语言切换",
+    "person.name": "颜佳伟",
     "brand.tagline": "阿秒 XFEL 及其未来",
     "nav.toggle": "切换导航",
     "nav.about": "关于",
