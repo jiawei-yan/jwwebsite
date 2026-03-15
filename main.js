@@ -157,6 +157,7 @@ const translations = {
     "awards.a4": "CAS Excellent Doctoral Dissertation Award",
     "awards.a5": "China's Top 10 Optical Breakthroughs",
     "awards.a6": "CAS President's Special Award",
+    "coverage.title": "Selected media coverage",
     "contact.eyebrow": "Contact",
     "contact.title": "Contact and profiles",
     "contact.intro":
@@ -306,6 +307,7 @@ const translations = {
     "awards.a4": "中国科学院优秀博士学位论文奖",
     "awards.a5": "中国光学十大进展",
     "awards.a6": "中国科学院院长特别奖",
+    "coverage.title": "媒体报道",
     "contact.eyebrow": "联系",
     "contact.title": "联系方式与个人主页",
     "contact.intro":
