@@ -56,7 +56,7 @@ const translations = {
     "hero.node3b": "seeded FELs",
     "hero.node4a": "AI for",
     "hero.node4b": "Science",
-    "hero.caption": "ultra-high-power hard X-ray attosecond pulses",
+    "hero.caption": "toward full control of X-ray pulses",
     "hero.visual1Title": "Main focus",
     "hero.visual1Label":
       "generation and applications of hard X-ray attosecond pulses",
@@ -65,7 +65,7 @@ const translations = {
       "pulse shaping, coherent FELs, and AI-enabled control",
     "about.eyebrow": "About",
     "about.title":
-      "Advanced XFEL science centered on hard X-ray attosecond pulses",
+      "Advanced XFEL science centered on hard X-ray attosecond science",
     "about.intro":
       "Current work in the MXL group at DESY centers on extending ultra-high-power hard X-ray attosecond pulse generation toward new source concepts, diagnostics, and applications.",
     "about.p1":
@@ -89,9 +89,9 @@ const translations = {
       "Attosecond XFELs, X-ray pulse shaping, coherent high-repetition-rate FELs, and AI for Science.",
     "research.card1.title": "Attosecond XFEL",
     "research.card1.p1":
-      "Hard X-ray attosecond pulses are a uniquely powerful route to resolving electronic motion and nonequilibrium dynamics on their natural timescales. The challenge is not merely to reach the attosecond regime, but to do so with sufficiently high peak power and with pulse properties that are actually useful for experiments.",
+      "Hard X-ray attosecond pulses are a uniquely powerful route to resolving electronic motion and nonequilibrium dynamics on their natural timescales. The challenge is not merely to reach the attosecond regime, but to do so with sufficiently high peak power, higher photon energy, and pulse properties that are actually useful for experiments.",
     "research.card1.p2":
-      "This is a primary focus of the current research program. The work emphasizes beam shaping, pulse compression, source optimization, diagnostics, and the transition from proof-of-principle generation to robust scientific use.",
+      "This is a primary focus of the current research program. The work emphasizes beam shaping, electron-beam compression, automatic optimization, diagnostics, and the transition from proof-of-principle generation to robust scientific use.",
     "research.card2.title": "Spatiotemporal shaping of X-ray pulses",
     "research.card2.p1":
       "Once pulse duration becomes controllable, the next question is whether one can also shape waveform, phase, and transverse mode content as part of pulse generation itself. This matters because many future X-ray experiments will need not just shorter pulses, but pulses with designed spatiotemporal structure.",
@@ -213,13 +213,13 @@ const translations = {
     "hero.node3b": "seeded FEL",
     "hero.node4a": "AI for",
     "hero.node4b": "Science",
-    "hero.caption": "超高功率硬X射线阿秒脉冲",
+    "hero.caption": "走向对X射线脉冲的完整操控",
     "hero.visual1Title": "当前主线",
     "hero.visual1Label": "硬X射线阿秒脉冲的产生与应用",
     "hero.visual2Title": "延展方向",
     "hero.visual2Label": "脉冲整形、相干FEL与AI驱动控制",
     "about.eyebrow": "关于",
-    "about.title": "以硬X射线阿秒脉冲为核心的先进XFEL研究",
+    "about.title": "以硬X射线阿秒科学为核心的先进XFEL研究",
     "about.intro":
       "目前在 DESY MXL 组的研究重心，是把超高功率硬X射线阿秒脉冲推进到新的产生机制、诊断能力和应用场景。",
     "about.p1":
@@ -240,9 +240,9 @@ const translations = {
       "阿秒XFEL、X射线脉冲整形、全相干高重复频率FEL，以及 AI for Science。",
     "research.card1.title": "阿秒 XFEL",
     "research.card1.p1":
-      "硬X射线阿秒脉冲是研究电子运动和非平衡动力学自然时间尺度的独特工具。关键难点不仅是进入阿秒尺度，更在于同时获得足够高的峰值功率，以及真正对实验有用的脉冲性质。",
+      "硬X射线阿秒脉冲是研究电子运动和非平衡动力学自然时间尺度的独特工具。关键难点不仅是进入阿秒尺度，更在于同时获得足够高的峰值功率、更高的光子能量，以及真正对实验有用的脉冲性质。",
     "research.card1.p2":
-      "这是当前研究计划中的核心主线之一。相关工作聚焦于超高功率硬X射线阿秒脉冲的产生及应用，尤其强调束流整形、脉冲压缩、源参数优化、阿秒XFEL诊断，以及从原理验证走向稳定科学应用的全过程。",
+      "这是当前研究计划中的核心主线之一。相关工作聚焦于超高功率硬X射线阿秒脉冲的产生及应用，尤其强调束流整形、电子束压缩、自动优化、阿秒XFEL诊断，以及从原理验证走向稳定科学应用的全过程。",
     "research.card2.title": "X射线脉冲的时空整形",
     "research.card2.p1":
       "当脉冲持续时间开始变得可控之后，下一步问题就是：我们是否还能把波形、相位以及横向模态结构也作为脉冲产生过程的一部分来控制？这很重要，因为未来很多X射线实验需要的不是“更短”的脉冲，而是“被设计过”的脉冲。",

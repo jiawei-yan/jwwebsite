@@ -796,6 +796,7 @@ li {
   flex-direction: column;
   gap: 14px;
   padding: 18px;
+  height: 100%;
 }
 
 .visual-art-frame {
@@ -803,6 +804,7 @@ li {
   display: grid;
   place-items: center;
   overflow: hidden;
+  height: clamp(240px, 26vw, 320px);
   padding: 14px;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -820,6 +822,11 @@ li {
 .visual-card-body {
   display: grid;
   gap: 8px;
+  align-content: start;
+}
+
+.visual-card-tall .visual-art-frame {
+  height: clamp(300px, 34vw, 420px);
 }
 
 .visual-card-tall .visual-art-frame img {
