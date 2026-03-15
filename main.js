@@ -135,7 +135,7 @@ const translations = {
     "highlights.title": "Current directions and future plans",
     "highlights.intro":
       "Attosecond pulse generation, coherent FEL concepts, diagnostics, and applications.",
-    "highlights.panel1Title": "Toward complete control over X-ray pulses",
+    "highlights.panel1Title": "Toward full control of X-ray pulses",
     "highlights.panel1P1":
       "The central aim is not only to make XFEL pulses shorter or more intense, but to make them deliberately shapeable. That means engineering the electron beam, the seeding process, and the FEL interaction so that the final X-ray pulse carries useful structure in duration, phase, topology, and coherence.",
     "highlights.panel1P2":
@@ -213,7 +213,7 @@ const translations = {
     "hero.node3b": "seeded FEL",
     "hero.node4a": "AI for",
     "hero.node4b": "Science",
-    "hero.caption": "走向对X射线脉冲的完整操控",
+    "hero.caption": "迈向X射线脉冲的完全操控",
     "hero.visual1Title": "当前主线",
     "hero.visual1Label": "硬X射线阿秒脉冲的产生与应用",
     "hero.visual2Title": "延展方向",
@@ -286,7 +286,7 @@ const translations = {
     "highlights.title": "当前方向与未来计划",
     "highlights.intro":
       "围绕阿秒脉冲产生、相干FEL方案、诊断与应用展开。",
-    "highlights.panel1Title": "走向对X射线脉冲的完整操控",
+    "highlights.panel1Title": "迈向X射线脉冲的完全操控",
     "highlights.panel1P1":
       "核心目标不只是让XFEL脉冲更短或更强，而是让它能够被主动设计。这意味着需要从电子束、seed 过程以及FEL相互作用本身入手，使最终得到的X射线脉冲在时长、相位、拓扑和相干性上都携带可用的结构。",
     "highlights.panel1P2":
