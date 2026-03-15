@@ -65,15 +65,16 @@ const translations = {
       "pulse shaping, coherent FELs, and AI-enabled control",
     "about.eyebrow": "About",
     "about.title":
-      "Centered on hard X-ray attosecond pulse generation, then extended outward",
+      "Advanced XFEL science centered on hard X-ray attosecond pulses",
     "about.intro":
-      "The center of gravity of my current work is ultra-high-power hard X-ray attosecond pulse generation and its application to new ultrafast X-ray science.",
+      "Current work in the MXL group at DESY centers on extending ultra-high-power hard X-ray attosecond pulse generation toward new source concepts, diagnostics, and applications.",
     "about.p1":
-      "I am based in Hamburg and work on advanced XFEL science across theory, numerical design, and experimental implementation. My current research program focuses on advancing hard X-ray attosecond pulse generation toward higher peak power, stronger controllability, and broader experimental impact, especially where pulse properties can be deliberately matched to demanding ultrafast measurements.",
+      "I am based in Hamburg and work as a Scientist in the DESY MXL group on advanced XFEL science across theory, numerical design, and experimental implementation. My current research program focuses on advancing hard X-ray attosecond pulse generation toward higher peak power, stronger controllability, and broader experimental impact, especially where pulse properties can be deliberately matched to demanding ultrafast measurements.",
     "about.p2":
       "Around this main line, I work on several connected problems: shaping X-ray pulses in both time and space, developing routes toward fully coherent high-repetition-rate FEL operation, and using AI and optimization methods to make accelerator and light-source physics more efficient and more programmable.",
     "about.p3":
       "I do not see these as separate topics. They are parts of one broader objective: complete control over X-ray pulses, from pulse duration and wavefront structure to coherence, stability, diagnostics, and machine intelligence.",
+    "about.position": "Scientist, MXL Group at DESY",
     "about.focusTitle": "Current emphasis",
     "about.focus1":
       "Ultra-high-power hard X-ray attosecond pulse generation and applications",
@@ -90,22 +91,22 @@ const translations = {
     "research.card1.p1":
       "Hard X-ray attosecond pulses are a uniquely powerful route to resolving electronic motion and nonequilibrium dynamics on their natural timescales. The challenge is not merely to reach the attosecond regime, but to do so with sufficiently high peak power and with pulse properties that are actually useful for experiments.",
     "research.card1.p2":
-      "This is my primary focus. I work on the generation and application of ultra-high-power hard X-ray attosecond pulses, with emphasis on beam shaping, pulse compression, source optimization, diagnostics, and the transition from proof-of-principle generation to robust scientific use.",
+      "This is a primary focus of the current research program. The work emphasizes beam shaping, pulse compression, source optimization, diagnostics, and the transition from proof-of-principle generation to robust scientific use.",
     "research.card2.title": "Spatiotemporal shaping of X-ray pulses",
     "research.card2.p1":
       "Once pulse duration becomes controllable, the next question is whether one can also shape waveform, phase, and transverse mode content as part of pulse generation itself. This matters because many future X-ray experiments will need not just shorter pulses, but pulses with designed spatiotemporal structure.",
     "research.card2.p2":
-      "I study methods for directly shaping X-ray pulses in time and space, including orbital-angular-momentum control and other routes to wavefront-engineered or waveform-engineered X-ray emission.",
+      "This direction studies methods for directly shaping X-ray pulses in time and space, including orbital-angular-momentum control and other routes to wavefront-engineered or waveform-engineered X-ray emission.",
     "research.card3.title": "Fully coherent high-repetition-rate FEL",
     "research.card3.p1":
       "Fully coherent FEL operation at high repetition rate is a major goal for next-generation light sources, but standard seeded FEL schemes run into practical limits, especially in seed-laser power and scalability. More generally, the question is how to retain seeded-FEL coherence while removing those bottlenecks.",
     "research.card3.p2":
-      "In my work, the most concrete example is the self-modulation seeded FEL mechanism, which I proposed and experimentally validated. More broadly, I am interested in how self-modulation HGHG and related mechanisms can support compact, high-average-power EUV FELs as well as more general coherent high-repetition-rate FEL development.",
+      "A representative line of work is the self-modulation seeded FEL mechanism, developed and experimentally validated in collaboration with colleagues. More broadly, this direction examines how self-modulation HGHG and related mechanisms can support compact, high-average-power EUV FELs as well as more general routes toward coherent high-repetition-rate FEL operation.",
     "research.card4.title": "AI for Science",
     "research.card4.p1":
       "Accelerator and FEL systems are already too high-dimensional and too nonlinear to rely only on manual tuning or brute-force scans. If we want light sources to become more adaptive and more precisely controlled, intelligent optimization must become part of the physics workflow.",
     "research.card4.p2":
-      "I use Bayesian optimization, machine learning, and physics-informed algorithms for machine studies, FEL design, and operational optimization, especially where these methods can improve both physical insight and practical controllability.",
+      "This work uses Bayesian optimization, machine learning, and physics-informed algorithms for machine studies, FEL design, and operational optimization, especially where these methods can improve both physical insight and practical controllability.",
     "papers.eyebrow": "Papers",
     "papers.title": "Selected papers",
     "papers.intro":
@@ -146,9 +147,9 @@ const translations = {
     "highlights.item4": "Data-driven operation of complex accelerator systems",
     "highlights.panel3Title": "Future directions",
     "highlights.panel3P1":
-      "Looking ahead, I want to develop compact attosecond XFEL concepts, diagnostics tailored to attosecond XFEL pulses, and new applications that fully exploit the unique combination of hard X-ray photon energy, attosecond duration, and high peak power.",
+      "Looking ahead, key directions include compact attosecond XFEL concepts, diagnostics tailored to attosecond XFEL pulses, and new applications that fully exploit the unique combination of hard X-ray photon energy, attosecond duration, and high peak power.",
     "highlights.panel3P2":
-      "On the coherent FEL side, I am also interested in whether self-modulation HGHG and related mechanisms can support compact, high-average-power EUV FEL development.",
+      "On the coherent FEL side, a related question is whether self-modulation HGHG and related mechanisms can support compact, high-average-power EUV FEL development.",
     "awards.eyebrow": "Recognition",
     "awards.title": "Selected honors",
     "awards.a1": "First Prize, Chinese Nuclear Society Natural Science Award",
@@ -166,11 +167,11 @@ const translations = {
     "contact.card1Text":
       "Academic correspondence.",
     "contact.emailButton": "Open email",
-    "contact.card2Title": "Location",
-    "contact.card2Text": "Hamburg, Germany",
+    "contact.card2Title": "Affiliation",
+    "contact.card2Text": "DESY MXL Group, Hamburg, Germany",
     "contact.card3Title": "Profiles",
     "contact.card3Text":
-      "LinkedIn, ResearchGate, and Twitter.",
+      "Google Scholar, ResearchGate, LinkedIn, and jwyan.com.",
     "footer.tagline": "Attosecond XFEL and Beyond",
   },
   zh: {
@@ -218,15 +219,16 @@ const translations = {
     "hero.visual2Title": "延展方向",
     "hero.visual2Label": "脉冲整形、相干FEL与AI驱动控制",
     "about.eyebrow": "关于",
-    "about.title": "以硬X射线阿秒脉冲产生为中心，并向外延展",
+    "about.title": "以硬X射线阿秒脉冲为核心的先进XFEL研究",
     "about.intro":
-      "我当前研究的重心，是把超高功率硬X射线阿秒脉冲推进到新的产生机制、诊断能力和应用场景。",
+      "目前在 DESY MXL 组的研究重心，是把超高功率硬X射线阿秒脉冲推进到新的产生机制、诊断能力和应用场景。",
     "about.p1":
-      "我目前在汉堡从事先进XFEL科学研究，工作内容横跨理论、数值设计和实验实现。现阶段的主要研究重点，是推动硬X射线阿秒脉冲向更高峰值功率、更强可控性以及更明确的实验影响力发展，尤其关注那些能够与高要求超快测量真正匹配的脉冲性质。",
+      "我目前在汉堡作为DESY MXL组的Scientist从事先进XFEL科学研究，工作内容横跨理论、数值设计和实验实现。现阶段的主要研究重点，是推动硬X射线阿秒脉冲向更高峰值功率、更强可控性以及更明确的实验影响力发展，尤其关注那些能够与高要求超快测量真正匹配的脉冲性质。",
     "about.p2":
       "围绕这一主线，我也研究若干紧密相关的问题：如何在时间和空间两个维度上整形X射线脉冲，如何推动全相干高重复频率FEL方案的发展，以及如何把AI和优化方法更深入地带入加速器与光源物理。",
     "about.p3":
       "在我看来，这些并不是彼此孤立的课题，而是同一个更大目标的不同部分：尽可能完整地操控X射线脉冲，从脉冲时长、波前结构、相干性与稳定性，一直到诊断能力和机器智能。",
+    "about.position": "DESY MXL组 Scientist",
     "about.focusTitle": "当前关注",
     "about.focus1": "超高功率硬X射线阿秒脉冲的产生与应用",
     "about.focus2": "结构化X射线脉冲的时空整形",
@@ -240,22 +242,22 @@ const translations = {
     "research.card1.p1":
       "硬X射线阿秒脉冲是研究电子运动和非平衡动力学自然时间尺度的独特工具。关键难点不仅是进入阿秒尺度，更在于同时获得足够高的峰值功率，以及真正对实验有用的脉冲性质。",
     "research.card1.p2":
-      "这是我当前最核心的研究重点。我关注超高功率硬X射线阿秒脉冲的产生及应用，尤其强调束流整形、脉冲压缩、源参数优化、阿秒XFEL诊断，以及从原理验证走向稳定科学应用的全过程。",
+      "这是当前研究计划中的核心主线之一。相关工作聚焦于超高功率硬X射线阿秒脉冲的产生及应用，尤其强调束流整形、脉冲压缩、源参数优化、阿秒XFEL诊断，以及从原理验证走向稳定科学应用的全过程。",
     "research.card2.title": "X射线脉冲的时空整形",
     "research.card2.p1":
       "当脉冲持续时间开始变得可控之后，下一步问题就是：我们是否还能把波形、相位以及横向模态结构也作为脉冲产生过程的一部分来控制？这很重要，因为未来很多X射线实验需要的不是“更短”的脉冲，而是“被设计过”的脉冲。",
     "research.card2.p2":
-      "因此我研究直接实现X射线脉冲时空整形的方法，包括轨道角动量调控，以及其他能够实现波前工程或波形工程的X射线产生方案。",
+      "这一方向研究直接实现X射线脉冲时空整形的方法，包括轨道角动量调控，以及其他能够实现波前工程或波形工程的X射线产生方案。",
     "research.card3.title": "全相干高重复频率 FEL",
     "research.card3.p1":
       "对下一代光源而言，全相干高重复频率FEL是一个重要目标，但标准 seeded FEL 方案往往受限于种子激光功率和可扩展性。更一般地说，核心问题是如何在保留 seeded FEL 相干性优势的同时，去掉这些现实瓶颈。",
     "research.card3.p2":
-      "在这一方向上，我最具体的工作是提出并实验验证了 self-modulation seeded FEL 机制。更广泛地，我也关心 self-modulation HGHG 及相关机制是否能够支持紧凑型、高平均功率 EUV-FEL，以及更一般意义上的高重复频率相干FEL发展。",
+      "这一方向的代表性进展之一，是与合作者提出并实验验证了 self-modulation seeded FEL 机制。更广泛地，这一研究也关注 self-modulation HGHG 及相关机制是否能够支持紧凑型、高平均功率 EUV-FEL，以及更一般意义上的高重复频率相干FEL发展。",
     "research.card4.title": "AI for Science",
     "research.card4.p1":
       "加速器和FEL系统已经高度高维且强非线性，单靠人工调节或暴力扫描越来越不现实。如果我们希望光源系统更自适应、更精确可控，那么智能优化必须成为物理工作流的一部分。",
     "research.card4.p2":
-      "我使用贝叶斯优化、机器学习和物理约束算法来处理机器研究、FEL设计和运行优化问题，尤其关注这些方法如何同时提升物理理解和实际可控性。",
+      "这一方向使用贝叶斯优化、机器学习和物理约束算法来处理机器研究、FEL设计和运行优化问题，尤其关注这些方法如何同时提升物理理解和实际可控性。",
     "papers.eyebrow": "论文",
     "papers.title": "近期论文",
     "papers.intro":
@@ -296,9 +298,9 @@ const translations = {
     "highlights.item4": "复杂加速器系统的数据驱动运行",
     "highlights.panel3Title": "未来方向",
     "highlights.panel3P1":
-      "未来我希望继续发展紧凑型阿秒XFEL方案、面向阿秒XFEL脉冲的诊断技术，以及真正利用硬X射线光子能量、阿秒时长和高峰值功率这一独特组合的新型应用。",
+      "未来的重要方向包括紧凑型阿秒XFEL方案、面向阿秒XFEL脉冲的诊断技术，以及真正利用硬X射线光子能量、阿秒时长和高峰值功率这一独特组合的新型应用。",
     "highlights.panel3P2":
-      "在相干FEL方向上，我也希望进一步探索 self-modulation HGHG 及相关机制，是否能够支持紧凑型、高平均功率 EUV-FEL 的发展。",
+      "在相干FEL方向上，一个相关问题是 self-modulation HGHG 及相关机制是否能够支持紧凑型、高平均功率 EUV-FEL 的发展。",
     "awards.eyebrow": "荣誉",
     "awards.title": "部分荣誉",
     "awards.a1": "中国核学会自然科学一等奖",
@@ -309,18 +311,18 @@ const translations = {
     "awards.a6": "中国科学院院长特别奖",
     "coverage.title": "媒体报道",
     "contact.eyebrow": "联系",
-    "contact.title": "联系方式与个人主页",
+    "contact.title": "联系方式与学术主页",
     "contact.intro":
       "用于学术交流与合作联系。",
     "contact.card1Title": "电子邮件",
     "contact.card1Text":
       "学术交流联系。",
     "contact.emailButton": "打开邮件",
-    "contact.card2Title": "所在地",
-    "contact.card2Text": "德国汉堡",
-    "contact.card3Title": "个人主页",
+    "contact.card2Title": "单位",
+    "contact.card2Text": "DESY MXL组，德国汉堡",
+    "contact.card3Title": "主页与链接",
     "contact.card3Text":
-      "LinkedIn、ResearchGate 和 Twitter。",
+      "Google Scholar、ResearchGate、LinkedIn 和 jwyan.com。",
     "footer.tagline": "阿秒 XFEL 及其未来",
   },
 };
