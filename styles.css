@@ -1229,4 +1229,21 @@ li {
     opacity: 1;
     transform: none;
   }
+
+  /* Keep the hero diagram gently alive even in reduced-motion mode. */
+  .ring-one {
+    animation: rotate-slow 42s linear infinite !important;
+  }
+
+  .ring-two {
+    animation: rotate-reverse 36s linear infinite !important;
+  }
+
+  .diagram-wave {
+    animation: wave-shift 10s linear infinite !important;
+  }
+
+  .wave-secondary {
+    animation-duration: 8.5s !important;
+  }
 }
