@@ -65,7 +65,7 @@ const translations = {
       "pulse shaping, coherent FELs, and AI-enabled control",
     "about.eyebrow": "About",
     "about.title":
-      "Advanced XFEL science centered on hard X-ray attosecond science",
+      "Advanced XFEL research centered on hard X-ray attosecond science",
     "about.intro":
       "Current work in the MXL group at DESY centers on extending ultra-high-power hard X-ray attosecond pulse generation toward new source concepts, diagnostics, and applications.",
     "about.p1":
