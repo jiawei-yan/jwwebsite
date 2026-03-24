@@ -29,20 +29,13 @@ const translations = {
     "nav.research": "Research",
     "nav.awards": "Recognition",
     "nav.papers": "Papers",
-    "nav.highlights": "Highlights",
     "nav.visuals": "Visuals",
     "nav.contact": "Contact",
     "hero.eyebrow": "Attosecond XFEL and Beyond",
-    "hero.role":
-      "Ultra-high-power hard X-ray attosecond pulse generation and applications",
     "hero.summary":
       "My current main focus is the generation and application of ultra-high-power hard X-ray attosecond pulses. More broadly, I work on advanced X-ray free-electron laser science, especially when source physics can be pushed toward stronger temporal compression, higher peak power, richer pulse structure, and more useful experimental capability.",
     "hero.summary2":
-      "My research spans attosecond XFELs, spatiotemporal shaping of X-ray pulses, fully coherent high-repetition-rate FELs, and AI for Science. At the center is a broader question: how can we move toward complete control over X-ray pulses?",
-    "hero.pill1": "Attosecond XFEL",
-    "hero.pill2": "X-ray pulse shaping",
-    "hero.pill3": "Fully coherent high-repetition-rate FEL",
-    "hero.pill4": "AI for Science",
+      "My research spans attosecond XFELs, spatiotemporal shaping of X-ray pulses, fully coherent high-repetition-rate FELs, and AI for Science. At the center is a broader question: how can we move toward full control over X-ray pulses?",
     "hero.visualKicker": "Research Map",
     "hero.visualTag": "four themes",
     "hero.diagramTitle": "Research directions in XFEL science",
@@ -57,12 +50,6 @@ const translations = {
     "hero.node4a": "AI for",
     "hero.node4b": "Science",
     "hero.caption": "toward full control of X-ray pulses",
-    "hero.visual1Title": "Main focus",
-    "hero.visual1Label":
-      "generation and applications of hard X-ray attosecond pulses",
-    "hero.visual2Title": "Extended program",
-    "hero.visual2Label":
-      "pulse shaping, coherent FELs, and AI-enabled control",
     "about.eyebrow": "About",
     "about.title":
       "Advanced XFEL research centered on hard X-ray attosecond science",
@@ -73,16 +60,19 @@ const translations = {
     "about.p2":
       "Around this main line, I work on several connected problems: shaping X-ray pulses in both time and space, developing routes toward fully coherent high-repetition-rate FEL operation, and using AI and optimization methods to make accelerator and light-source physics more efficient and more programmable.",
     "about.p3":
-      "I do not see these as separate topics. They are parts of one broader objective: complete control over X-ray pulses, from pulse duration and wavefront structure to coherence, stability, diagnostics, and machine intelligence.",
+      "I do not see these as separate topics. They are parts of one broader objective: full control over X-ray pulses, from pulse duration and wavefront structure to coherence, stability, diagnostics, and machine intelligence.",
     "about.position": "Scientist, MXL Group at DESY",
     "about.focusTitle": "Current emphasis",
-    "about.focus1":
-      "Ultra-high-power hard X-ray attosecond pulse generation and applications",
-    "about.focus2": "Spatiotemporal shaping of structured X-ray pulses",
-    "about.focus3":
-      "Fully coherent high-repetition-rate FEL concepts and seeded FEL physics",
-    "about.focus4":
-      "Bayesian and AI-assisted optimization for accelerator-based light sources",
+    "about.focus1": "Attosecond XFEL",
+    "about.focus2": "X-ray pulse shaping",
+    "about.focus3": "Fully coherent FEL",
+    "about.focus4": "AI for Science",
+    "about.serviceTitle": "Editorial Appointments",
+    "about.service1Role": "Editorial Board",
+    "about.service1Journal": "Scientific Reports",
+    "about.service2Role": "Early Career Editorial Board",
+    "about.service2Journal": "Advanced Photonics",
+    "about.service3Journal": "PhotoniX Life",
     "research.eyebrow": "Research",
     "research.title": "Four research themes",
     "research.intro":
@@ -131,25 +121,6 @@ const translations = {
     "visuals.card4.title": "Laser-beam interaction",
     "visuals.card4.text":
       "Concept visual for laser-beam interaction in a dipole magnet.",
-    "highlights.eyebrow": "Outlook",
-    "highlights.title": "Current directions and future plans",
-    "highlights.intro":
-      "Attosecond pulse generation, coherent FEL concepts, diagnostics, and applications.",
-    "highlights.panel1Title": "Toward full control of X-ray pulses",
-    "highlights.panel1P1":
-      "The central aim is not only to make XFEL pulses shorter or more intense, but to make them deliberately shapeable. That means engineering the electron beam, the seeding process, and the FEL interaction so that the final X-ray pulse carries useful structure in duration, phase, topology, and coherence.",
-    "highlights.panel1P2":
-      "In this view, attosecond XFELs, structured X-ray pulses, coherent FEL control, and machine intelligence are not isolated projects. They all serve the same long-term goal: achieving as complete control over X-ray pulses as possible.",
-    "highlights.panel2Title": "Shared scientific thread",
-    "highlights.item1": "Electron-beam phase-space control",
-    "highlights.item2": "Direct shaping of ultrafast X-ray waveforms",
-    "highlights.item3": "Coherence and scalability at high repetition rate",
-    "highlights.item4": "Data-driven operation of complex accelerator systems",
-    "highlights.panel3Title": "Future directions",
-    "highlights.panel3P1":
-      "Looking ahead, key directions include compact attosecond XFEL concepts, diagnostics tailored to attosecond XFEL pulses, and new applications that fully exploit the unique combination of hard X-ray photon energy, attosecond duration, and high peak power.",
-    "highlights.panel3P2":
-      "On the coherent FEL side, a related question is whether self-modulation HGHG and related mechanisms can support compact, high-average-power EUV FEL development.",
     "awards.eyebrow": "Recognition",
     "awards.title": "Selected honors",
     "awards.a1": "First Prize, Chinese Nuclear Society Natural Science Award",
@@ -170,8 +141,6 @@ const translations = {
     "contact.card2Title": "Affiliation",
     "contact.card2Text": "DESY MXL Group, Hamburg, Germany",
     "contact.card3Title": "Profiles",
-    "contact.card3Text":
-      "Google Scholar, ResearchGate, LinkedIn, and jwyan.com.",
     "footer.tagline": "Attosecond XFEL and Beyond",
   },
   zh: {
@@ -187,19 +156,13 @@ const translations = {
     "nav.research": "研究方向",
     "nav.awards": "荣誉",
     "nav.papers": "论文",
-    "nav.highlights": "研究脉络",
     "nav.visuals": "图像",
     "nav.contact": "联系",
     "hero.eyebrow": "阿秒 XFEL 及其未来",
-    "hero.role": "超高功率硬X射线阿秒脉冲的产生及应用",
     "hero.summary":
       "我当前最主要的研究重点，是超高功率硬X射线阿秒脉冲的产生及其应用。更广义地说，我关注那些能够把X射线自由电子激光推进到更强时域压缩、更高峰值功率、更丰富脉冲结构以及更高实验可用性的源物理问题。",
     "hero.summary2":
-      "我的研究涵盖阿秒XFEL、X射线脉冲时空整形、全相干高重复频率FEL，以及 AI for Science。贯穿其中的核心问题是：我们如何尽可能完全地操控X射线脉冲？",
-    "hero.pill1": "阿秒 XFEL",
-    "hero.pill2": "X射线脉冲整形",
-    "hero.pill3": "全相干高重复频率 FEL",
-    "hero.pill4": "AI for Science",
+      "我的研究涵盖阿秒XFEL、X射线脉冲时空整形、全相干高重复频率FEL，以及 AI for Science。贯穿其中的核心问题是：我们如何完全地操控X射线脉冲？",
     "hero.visualKicker": "研究图谱",
     "hero.visualTag": "四个主题",
     "hero.diagramTitle": "XFEL 科学中的研究方向",
@@ -214,10 +177,6 @@ const translations = {
     "hero.node4a": "AI for",
     "hero.node4b": "Science",
     "hero.caption": "迈向X射线脉冲的完全操控",
-    "hero.visual1Title": "当前主线",
-    "hero.visual1Label": "硬X射线阿秒脉冲的产生与应用",
-    "hero.visual2Title": "延展方向",
-    "hero.visual2Label": "脉冲整形、相干FEL与AI驱动控制",
     "about.eyebrow": "关于",
     "about.title": "以硬X射线阿秒科学为核心的先进XFEL研究",
     "about.intro":
@@ -227,13 +186,19 @@ const translations = {
     "about.p2":
       "围绕这一主线，我也研究若干紧密相关的问题：如何在时间和空间两个维度上整形X射线脉冲，如何推动全相干高重复频率FEL方案的发展，以及如何把AI和优化方法更深入地带入加速器与光源物理。",
     "about.p3":
-      "在我看来，这些并不是彼此孤立的课题，而是同一个更大目标的不同部分：尽可能完整地操控X射线脉冲，从脉冲时长、波前结构、相干性与稳定性，一直到诊断能力和机器智能。",
+      "在我看来，这些并不是彼此孤立的课题，而是同一个更大目标的不同部分：完全操控X射线脉冲，从脉冲时长、波前结构、相干性与稳定性，一直到诊断能力和机器智能。",
     "about.position": "DESY MXL组 Scientist",
     "about.focusTitle": "当前关注",
-    "about.focus1": "超高功率硬X射线阿秒脉冲的产生与应用",
-    "about.focus2": "结构化X射线脉冲的时空整形",
-    "about.focus3": "全相干高重复频率FEL方案与 seeded FEL 物理",
-    "about.focus4": "面向加速器光源的贝叶斯与AI辅助优化",
+    "about.focus1": "阿秒XFEL",
+    "about.focus2": "X射线脉冲整形",
+    "about.focus3": "全相干FEL",
+    "about.focus4": "AI for Science",
+    "about.serviceTitle": "期刊任职",
+    "about.service1Role": "编委",
+    "about.service1Journal": "Scientific Reports",
+    "about.service2Role": "青年编委",
+    "about.service2Journal": "Advanced Photonics",
+    "about.service3Journal": "PhotoniX Life",
     "research.eyebrow": "研究方向",
     "research.title": "四个研究主题",
     "research.intro":
@@ -282,25 +247,6 @@ const translations = {
     "visuals.card4.title": "Laser-beam interaction",
     "visuals.card4.text":
       "对应 dipole magnet 中 laser-beam interaction 的概念图像。",
-    "highlights.eyebrow": "展望",
-    "highlights.title": "当前方向与未来计划",
-    "highlights.intro":
-      "围绕阿秒脉冲产生、相干FEL方案、诊断与应用展开。",
-    "highlights.panel1Title": "迈向X射线脉冲的完全操控",
-    "highlights.panel1P1":
-      "核心目标不只是让XFEL脉冲更短或更强，而是让它能够被主动设计。这意味着需要从电子束、seed 过程以及FEL相互作用本身入手，使最终得到的X射线脉冲在时长、相位、拓扑和相干性上都携带可用的结构。",
-    "highlights.panel1P2":
-      "从这个角度看，阿秒XFEL、结构化X射线脉冲、相干FEL控制以及机器智能并不是彼此孤立的项目，而是在朝着同一个长期目标推进：尽可能完整地操控X射线脉冲。",
-    "highlights.panel2Title": "共同的科学主线",
-    "highlights.item1": "电子束相空间控制",
-    "highlights.item2": "超快X射线波形的直接整形",
-    "highlights.item3": "高重复频率下的相干性与可扩展性",
-    "highlights.item4": "复杂加速器系统的数据驱动运行",
-    "highlights.panel3Title": "未来方向",
-    "highlights.panel3P1":
-      "未来的重要方向包括紧凑型阿秒XFEL方案、面向阿秒XFEL脉冲的诊断技术，以及真正利用硬X射线光子能量、阿秒时长和高峰值功率这一独特组合的新型应用。",
-    "highlights.panel3P2":
-      "在相干FEL方向上，一个相关问题是 self-modulation HGHG 及相关机制是否能够支持紧凑型、高平均功率 EUV-FEL 的发展。",
     "awards.eyebrow": "荣誉",
     "awards.title": "部分荣誉",
     "awards.a1": "中国核学会自然科学一等奖",
@@ -321,8 +267,6 @@ const translations = {
     "contact.card2Title": "单位",
     "contact.card2Text": "DESY MXL组，德国汉堡",
     "contact.card3Title": "主页与链接",
-    "contact.card3Text":
-      "Google Scholar、ResearchGate、LinkedIn 和 jwyan.com。",
     "footer.tagline": "阿秒 XFEL 及其未来",
   },
 };
